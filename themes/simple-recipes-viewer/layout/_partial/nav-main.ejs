@@ -3,7 +3,7 @@
     page_ingredients = site.pages.filter( p => p.layout === 'ingredients' ).data[0];
 %>
 <ul>
-  <li<% if ( page.layout === 'index' ) { %> class="selected"<% } %>><a href="/" class="btn" tabindex="-1">Simple To Make It</a></li>
+  <li<% if ( page.layout === 'index' ) { %> class="selected"<% } %>><a href="/" class="btn" tabindex="-1">Homepage</a></li>
   <li<% if ( page.layout === 'ingredients' || page.layout === 'ingredient' ) { %> class="selected"<% } %>><a href="/<%= page_ingredients.path %>" class="btn" tabindex="-1">Guida agli ingredienti</a></li>
   <li<% if ( page.layout === 'about' ) { %> class="selected"<% } %>><a href="/<%= page_about.path %>" class="btn" tabindex="-1">About</a></li>
 </ul>

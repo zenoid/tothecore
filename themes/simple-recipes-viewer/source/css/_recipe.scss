@@ -230,11 +230,7 @@ section {
   @media only screen and (max-width: $size-XXS) {
 
     &.content {
-      padding: 1.5rem 0 0 0;
-
-      &:last-of-type {
-        padding-bottom: 2.5rem;
-      }
+      padding: 0.5rem;
     }
   }
 }
@@ -372,7 +368,7 @@ body:not(.touch) {
 
     @media only screen and (max-width: $size-S) {
       padding-bottom: 1.5rem;
-      height: calc( 100% - 2px );
+      height: 100%;
     }
   }
 
@@ -394,10 +390,6 @@ body:not(.touch) {
 
   @media only screen and (max-width: $size-S) {
     display: block;
-
-    .card-list {
-      padding-top: 1rem;
-    }
   }
 }
 
