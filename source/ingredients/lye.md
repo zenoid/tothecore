@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: lye
+permalink: soda-caustica
 name: "Soda caustica"
 altNames: "Idrossido di Sodio (NaOH)"
 inci: Sodium Hydroxide

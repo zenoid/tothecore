@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: milk
+permalink: latte
 name: "Latte"
 unitWeight: 1.04
 

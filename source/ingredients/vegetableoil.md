@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: vegetableoil
+permalink: olio-di-semi
 name: "Olio di semi"
 inci: "Seed Oil"
 unitWeight: 0.947

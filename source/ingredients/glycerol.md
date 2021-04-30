@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: glycerol
+permalink: glicerolo
 name: "Glicerolo"
 altNames: "Glicerina vegetale"
 inci: "Glycerin"

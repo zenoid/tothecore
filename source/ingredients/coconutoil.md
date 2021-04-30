@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: coconutoil
+permalink: olio-cocco
 name: "Olio di cocco"
 altNames: "Burro di cocco"
 inci: "Cocos Nucifera Oil"

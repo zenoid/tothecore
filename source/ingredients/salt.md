@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: salt
+permalink: sale
 name: "Sale fino"
 inci: "Sodium Chloride"
 

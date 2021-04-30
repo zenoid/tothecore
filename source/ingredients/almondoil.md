@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: almondoil
+permalink: olio-mandorle
 name: "Olio di mandorle dolci"
 inci: "Prunus Amygdalus Dulcis Oil"
 unitWeight: 0.92

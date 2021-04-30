@@ -3,6 +3,9 @@
 layout: ingredient
 
 id: alcol
+permalink: alcool-etilico
+categories:
+- [ingredient]
 name: "Alcool etilico"
 altNames: "Etanolo"
 inci: "Alcohol"

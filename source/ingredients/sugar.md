@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: sugar
+permalink: zucchero
 name: "Zucchero"
 unitWeight: 1.6
 

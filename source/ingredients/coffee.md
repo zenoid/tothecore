@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: coffee
+permalink: caffe
 name: "Caffè in polvere"
 
 features_hygiene:

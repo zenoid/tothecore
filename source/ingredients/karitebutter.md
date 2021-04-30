@@ -3,6 +3,7 @@
 layout: ingredient
 
 id: karite
+permalink: burro-karite
 name: "Burro di Karité"
 inci: "Butyrospermum Parkii"
 unitWeight: 0.91
