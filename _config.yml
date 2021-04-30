@@ -67,3 +67,9 @@ image_minifier:
 
 # Metadata elements
 meta_generator: false
+
+# Sitemap
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false

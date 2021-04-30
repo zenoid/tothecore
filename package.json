@@ -15,7 +15,7 @@
     "hexo": "latest",
     "hexo-all-minifier": "^0.5.3",
     "hexo-browsersync": "latest",
-    "hexo-generator-sitemap": "^2.0.0",
+    "hexo-generator-seo-friendly-sitemap": "^0.2.1",
     "hexo-renderer-ejs": "latest",
     "hexo-renderer-marked": "^3.0.0",
     "hexo-renderer-scss": "latest",
