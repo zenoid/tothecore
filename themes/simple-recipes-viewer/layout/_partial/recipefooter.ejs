@@ -14,7 +14,8 @@
       "recipeIngredient": [
         <%
 
-        var ingredients = [];
+        var ingredients = [],
+          ingrSchema = [];
 
         for ( i = 0; i < page.ingredients.length; i++ ) {
           ingredients.push({
@@ -31,10 +32,14 @@
           }
         }
 
-        ingredients.forEach( (ing, i) => {
+        ingredients.forEach( (ing) => {
           if ( ing.name ) {
-            %>"<% if ( ing.qty ) { %><%- ing.qty %> <%- ing.units %> <% } %><%- ing.name %>"<% if ( i < ingredients.length - 1 ) { %>, <% } %><%
+            ingrSchema.push( ing );
           }
+        });
+
+        ingrSchema.forEach( (ing, i) => {
+          %>"<% if ( ing.qty ) { %><%- ing.qty %> <%- ing.units %> <% } %><%- ing.name %>"<% if ( i < ingrSchema.length - 1 ) { %>, <% } %><%
         }) %>
       ],
       "aggregateRating": {
