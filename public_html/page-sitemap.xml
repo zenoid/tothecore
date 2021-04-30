@@ -10,6 +10,33 @@
     
     
     <url>
+        <loc>https://simpletomake.it/gingerbeer.html</loc>
+        <lastmod>2021-04-30T14:57:21.012Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://simpletomake.it/ingrediente/sale.html</loc>
+        <lastmod>2021-04-30T14:54:53.350Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
+        <loc>https://simpletomake.it/kimchi.html</loc>
+        <lastmod>2021-04-30T14:43:10.714Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>https://simpletomake.it/ingredienti.html</loc>
         <lastmod>2021-04-30T09:07:25.793Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -84,15 +111,6 @@
     <url>
         <loc>https://simpletomake.it/ingrediente/zucchero.html</loc>
         <lastmod>2021-04-30T09:04:45.457Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://simpletomake.it/ingrediente/sale.html</loc>
-        <lastmod>2021-04-30T09:04:43.419Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -226,15 +244,6 @@
     
     
     <url>
-        <loc>https://simpletomake.it/gingerbeer.html</loc>
-        <lastmod>2021-03-09T07:38:12.535Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
         <loc>https://simpletomake.it/sapone.html</loc>
         <lastmod>2021-02-10T14:33:36.228Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -246,15 +255,6 @@
     <url>
         <loc>https://simpletomake.it/yogurt-denso.html</loc>
         <lastmod>2021-02-10T14:33:36.228Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://simpletomake.it/kimchi.html</loc>
-        <lastmod>2021-02-10T14:33:36.226Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>

@@ -43,7 +43,7 @@
   <link rel="preload" href="/fonts/Bitter-Light.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Bitter-Medium.woff2" as="font" type="font/woff2" crossorigin>
   
-<link rel="stylesheet" href="/css/style.css?v=1619791933972.css">
+<link rel="stylesheet" href="/css/style.css?v=1619795569990.css">
 
 
 </head>
@@ -231,7 +231,7 @@
           <input type="checkbox" id="ingroliveoil">
           <label for="ingroliveoil"></label>
           <div class="card-body">
-            <h3><a href="/ingrediente/olio-oliva.html" class="ingredient" data-tooltip="→ Vai alla scheda">Olio d'oliva</a><span class="quantity"><span data-qty="oliveoil">200</span> gr</span></h3>
+            <h3><a href="/ingrediente/olio-oliva.html" class="ingredient" data-tooltip="→ Vai alla scheda">Olio d'oliva</a><span class="quantity"><span class="qtyspan"><span data-qty="oliveoil">200</span> gr</span></span></h3>
             
             <p class="note">Non importa che sia extravergine, può essere anche scaduto o usato per frittura (se filtrato molto bene), ma <strong>non deve essere rancido</strong>. Per questa ricetta non usare un altro olio, perché potrebbe richiedere dosi differenti di soda caustica.</p><p class="note"></p>
           </div>
@@ -240,7 +240,7 @@
           <input type="checkbox" id="ingrlye">
           <label for="ingrlye"></label>
           <div class="card-body">
-            <h3><a href="/ingrediente/soda-caustica.html" class="ingredient" data-tooltip="→ Vai alla scheda">Soda caustica</a><span class="quantity"><span data-qty="lye">130</span> gr</span></h3>
+            <h3><a href="/ingrediente/soda-caustica.html" class="ingredient" data-tooltip="→ Vai alla scheda">Soda caustica</a><span class="quantity"><span class="qtyspan"><span data-qty="lye">130</span> gr</span></span></h3>
             <p class="note">Chiamato anche: <strong>Idrossido di Sodio (NaOH)</strong></p>
             <p class="note">Si presenta in scaglie bianche e si trova in ferramenta. Non ha nulla a che vedere con il Carbonato di Sodio (Soda Solvay), venduto come coadiuvante per il bucato. Può provocare gravi ustioni cutanee e gravi lesioni oculari.</p><p class="note"></p>
           </div>
@@ -249,7 +249,7 @@
           <input type="checkbox" id="ingraqua">
           <label for="ingraqua"></label>
           <div class="card-body">
-            <h3><a href="/ingrediente/acqua.html" class="ingredient" data-tooltip="→ Vai alla scheda">Acqua</a><span class="quantity"><span data-qty="aqua">300</span> gr</span></h3>
+            <h3><a href="/ingrediente/acqua.html" class="ingredient" data-tooltip="→ Vai alla scheda">Acqua</a><span class="quantity"><span class="qtyspan"><span data-qty="aqua">300</span> gr</span></span></h3>
             
             <p class="note">Meglio se demineralizzata o a basso residuo fisso.</p><p class="note">In alcune ricette si suggerisce di usare latte, infusi o succhi, ma non hanno effetti percepibili sul prodotto finito.</p>
           </div>
@@ -258,7 +258,7 @@
           <input type="checkbox" id="ingrperfume">
           <label for="ingrperfume"></label>
           <div class="card-body">
-            <h3><a href="/ingrediente/oli-essenziali.html" class="ingredient" data-tooltip="→ Vai alla scheda">Oli essenziali</a><span class="quantity"><span data-qty="perfume">30</span> ml</span></h3>
+            <h3><a href="/ingrediente/oli-essenziali.html" class="ingredient" data-tooltip="→ Vai alla scheda">Oli essenziali</a><span class="quantity"><span class="qtyspan"><span data-qty="perfume">30</span> ml</span></span></h3>
             
             <p class="note">L'etichetta deve indicare chiaramente l'origine per spremitura o a corrente di vapore, e non riportare la dicitura "essenza".</p><p class="note">Opzionali, per dare profumo o aggiungere proprietà al sapone. Solo gli oli essenziali sono efficaci: si possono aggiungere fiori, spezie o erbe come decorazione, ma aromi e proprietà verranno annullati dalla soda caustica.</p>
           </div>
@@ -490,7 +490,6 @@
   </article>
 </div>
 
-
   <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -503,7 +502,7 @@
       },
       "recipeCategory": "hygiene",
       "keywords": "ricetta, autoproduzione, casalingo, cucina, saponi, detergenti, detersivi, disinfettanti, fermentazioni, fermentati, pane, ingredienti, attrezzature, procedimento, uso, conservazione",
-      "description": "Per produrre sapone si fanno reagire <strong>una o più sostanze grasse con una sostanza fortemente alcalina</strong> (di solito soda caustica), secondo quantità che dipendono da coefficienti molto precisi in base agli ingredienti usati. Il sapone può essere fatto &quot;a freddo&quot;, senza termometri e senza scaldare nessun ingrediente, ma il risultato ideale si ottiene <strong>limitando le differenze di temperatura tra gli ingredienti</strong>. La soda caustica è molto irritante, e bisogna fare in modo che venga trasformata interamente in sapone: <strong>va manipolata con cautela, pesata con precisione e fatta maturare per alcune settimane</strong>. ",
+      "description": "Per produrre sapone si fanno reagire una o più sostanze grasse con una sostanza fortemente alcalina (di solito soda caustica), secondo quantità che dipendono da coefficienti molto precisi in base agli ingredienti usati. Il sapone può essere fatto &quot;a freddo&quot;, senza termometri e senza scaldare nessun ingrediente, ma il risultato ideale si ottiene limitando le differenze di temperatura tra gli ingredienti. La soda caustica è molto irritante, e bisogna fare in modo che venga trasformata interamente in sapone: va manipolata con cautela, pesata con precisione e fatta maturare per alcune settimane. ",
       "recipeIngredient": [
         "200 gr Olio d'oliva", "130 gr Soda caustica", "300 gr Acqua", "30 ml Oli essenziali"
       ],
@@ -512,16 +511,16 @@
       },
       "recipeInstructions": [
         { "@type": "HowToStep", "text": "Lavora in un ambiente arieggiato e indossa le protezioni,Indossa sempre i guanti. Tieni una finestra aperta o accendi la cappa della cucina. Tieni l'aceto, aperto, sempre a portata di mano: versalo sulla pelle se entra a contatto con la soda caustica." }, 
-        { "@type": "HowToStep", "text": "Pesa nella ciotola <span class='qtyspan'><span data-qty='lye'>130</span> gr</span> di soda caustica,Se hai dubbi sulla precisione della bilancia, arrotonda sempre per difetto. Qui c'è già uno &quot;sconto&quot; sulla quantità richiesta (ovvero il 13.4% sul peso dell'olio): cerca di non mettere meno del 12.7%." }, 
-        { "@type": "HowToStep", "text": "Versa <span class='qtyspan'><span data-qty='aqua'>300</span> gr</span> di acqua nel contenitore più piccolo dei due," }, 
+        { "@type": "HowToStep", "text": "Pesa nella ciotola 130 gr di soda caustica,Se hai dubbi sulla precisione della bilancia, arrotonda sempre per difetto. Qui c'è già uno &quot;sconto&quot; sulla quantità richiesta (ovvero il 13.4% sul peso dell'olio): cerca di non mettere meno del 12.7%." }, 
+        { "@type": "HowToStep", "text": "Versa 300 gr di acqua nel contenitore più piccolo dei due," }, 
         { "@type": "HowToStep", "text": "Versa la soda caustica nell'acqua, girando con il mestolo per farla sciogliere, e tenendo il viso lontano,La soda caustica produrrà vapori irritanti. Nel frattempo l'acqua si scalderà, fino a 80-90°C. Non aggiungere mai acqua alla soda caustica, ma sempre al contrario." }, 
-        { "@type": "HowToStep", "text": "Dopo aver sciolto tutta la soda caustica, lascia raffreddare la soluzione per mezz'ora o finché non avrà raggiunto <strong>40-50°C</strong>,Se vuoi procedere &quot;a freddo&quot;, non lasciar raffreddare la soluzione." }, 
-        { "@type": "HowToStep", "text": "Versa nella pentola <span class='qtyspan'><span data-qty='oliveoil'>1000</span> gr</span> di olio d'oliva, scaldalo fino a <strong>40-50°C</strong>, e poi versalo nel contenitore più grande,Ricorda di pesare l'olio, non basarti sul volume. Se vuoi procedere &quot;a freddo&quot;, non scaldare l'olio: mettilo direttamente nel contenitore grande." }, 
+        { "@type": "HowToStep", "text": "Dopo aver sciolto tutta la soda caustica, lascia raffreddare la soluzione per mezz'ora o finché non avrà raggiunto 40-50°C,Se vuoi procedere &quot;a freddo&quot;, non lasciar raffreddare la soluzione." }, 
+        { "@type": "HowToStep", "text": "Versa nella pentola 1000 gr di olio d'oliva, scaldalo fino a 40-50°C, e poi versalo nel contenitore più grande,Ricorda di pesare l'olio, non basarti sul volume. Se vuoi procedere &quot;a freddo&quot;, non scaldare l'olio: mettilo direttamente nel contenitore grande." }, 
         { "@type": "HowToStep", "text": "Versa la soluzione di acqua e soda caustica nel barattolo con l’olio, girando col mestolo,L'olio diventerà sempre più opaco." }, 
         { "@type": "HowToStep", "text": "Quando inizi a faticare col mestolo, aggiungi gli oli essenziali, e continua a mescolare con il frullatore ad immersione,Per rendere più persistente l'aroma, mescola gli oli in un po' di amido prima di aggiungerli al barattolo." }, 
         { "@type": "HowToStep", "text": "Frulla finché il composto non sarà omogeneo e opaco, come una maionese,Potrebbe volerci qualche minuto. Accendi e spegni il frullatore per evitare di surriscaldarlo." }, 
         { "@type": "HowToStep", "text": "Quando il composto è pronto, versalo subito negli stampi,Batti leggermente gli stampi sul tavolo per evitare bolle d'aria." }, 
-        { "@type": "HowToStep", "text": "Tieni gli stampi in un luogo arieggiato per <strong>24-48 ore</strong> e poi estrai i saponi, indossando i guanti,Il lato esposto all'aria potrebbe essere  più chiaro: non è un problema. Se vuoi tagliarlo in pezzi più piccoli, questo è il momento giusto, perché il sapone sarà solido ma non duro." }
+        { "@type": "HowToStep", "text": "Tieni gli stampi in un luogo arieggiato per 24-48 ore e poi estrai i saponi, indossando i guanti,Il lato esposto all'aria potrebbe essere  più chiaro: non è un problema. Se vuoi tagliarlo in pezzi più piccoli, questo è il momento giusto, perché il sapone sarà solido ma non duro." }
       ]
     }
   </script>
@@ -551,7 +550,6 @@ annotationGroup( annotations ).show();
       <button class="btn-icon hidden btn-next"><svg class="icon"><use href="/images/svgdefs.svg#icon-arrow-down"/></svg></button>
     </div>
   </nav>
-
 
   <script data-goatcounter="https://simpletomakeit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   

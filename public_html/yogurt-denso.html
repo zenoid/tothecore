@@ -43,7 +43,7 @@
   <link rel="preload" href="/fonts/Bitter-Light.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Bitter-Medium.woff2" as="font" type="font/woff2" crossorigin>
   
-<link rel="stylesheet" href="/css/style.css?v=1619791933973.css">
+<link rel="stylesheet" href="/css/style.css?v=1619795569992.css">
 
 
 </head>
@@ -218,7 +218,7 @@
           <input type="checkbox" id="ingrmilk">
           <label for="ingrmilk"></label>
           <div class="card-body">
-            <h3><a href="/ingrediente/latte.html" class="ingredient" data-tooltip="→ Vai alla scheda">Latte</a><span class="quantity"><span data-qty="milk">1000</span> ml</span></h3>
+            <h3><a href="/ingrediente/latte.html" class="ingredient" data-tooltip="→ Vai alla scheda">Latte</a><span class="quantity"><span class="qtyspan"><span data-qty="milk">1000</span> ml</span></span></h3>
             
             <p class="note">Meglio usare <strong>latte vaccino intero</strong> fresco, e non a lunga conservazione (UHT). Non si possono utilizzare latti vegetali o delattosati: non contengono il lattosio necessario alla fermentazione.</p><p class="note"></p>
           </div>
@@ -227,7 +227,7 @@
           <input type="checkbox" id="ingryogurt">
           <label for="ingryogurt"></label>
           <div class="card-body">
-            <h3><span class="ingredient">Yogurt bianco</span><span class="quantity"><span data-qty="yogurt">120</span> ml</span></h3>
+            <h3><span class="ingredient">Yogurt bianco</span><span class="quantity"><span class="qtyspan"><span data-qty="yogurt">120</span> ml</span></span></h3>
             
             <p class="note">Yogurt prodotto da latte animale, senza aromi o zuccheri aggiunti, e non vicino alla data di scadenza.</p>
           </div>
@@ -382,7 +382,6 @@
   </article>
 </div>
 
-
   <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -395,7 +394,7 @@
       },
       "recipeCategory": "food",
       "keywords": "ricetta, autoproduzione, casalingo, cucina, saponi, detergenti, detersivi, disinfettanti, fermentazioni, fermentati, pane, ingredienti, attrezzature, procedimento, uso, conservazione",
-      "description": "Fare yogurt è uno dei modi per fermentare il latte: lo rende <strong>più digeribile</strong> perché riduce il lattosio e <strong>più salutare</strong> perché aggiunge fermenti lattici. Per fare lo yogurt basta mescolare al latte uno yogurt già fatto, e tenerlo ad una <strong>temperatura costante di 40-45°C per alcune ore</strong>. Per ottenere uno yogurt più denso è necessario &quot;sciogliere&quot; le proteine del latte prima di aggiungere i fermenti, <strong>scaldandolo lentamente fino a 80°C (ma non oltre 90°C)</strong>. ",
+      "description": "Fare yogurt è uno dei modi per fermentare il latte: lo rende più digeribile perché riduce il lattosio e più salutare perché aggiunge fermenti lattici. Per fare lo yogurt basta mescolare al latte uno yogurt già fatto, e tenerlo ad una temperatura costante di 40-45°C per alcune ore. Per ottenere uno yogurt più denso è necessario &quot;sciogliere&quot; le proteine del latte prima di aggiungere i fermenti, scaldandolo lentamente fino a 80°C (ma non oltre 90°C). ",
       "recipeIngredient": [
         "1000 ml Latte", "120 ml Yogurt bianco"
       ],
@@ -403,14 +402,14 @@
         "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "217"
       },
       "recipeInstructions": [
-        { "@type": "HowToStep", "text": "Versa <span class='qtyspan'><span data-qty='milk'>1000</span> ml</span> di latte nella pentola, e inizia a scaldarla a fuoco basso" }, 
-        { "@type": "HowToStep", "text": "Usa il termometro per capire quando il latte ha raggiunto gli <strong>80°C</strong>,Se non hai il termometro, vedi quando inizia a formare un po' di schiuma, ma senza bollire." }, 
+        { "@type": "HowToStep", "text": "Versa 1000 ml di latte nella pentola, e inizia a scaldarla a fuoco basso" }, 
+        { "@type": "HowToStep", "text": "Usa il termometro per capire quando il latte ha raggiunto gli 80°C,Se non hai il termometro, vedi quando inizia a formare un po' di schiuma, ma senza bollire." }, 
         { "@type": "HowToStep", "text": "Quando il latte è a temperatura, giralo per un paio di minuti, poi spegni il fuoco e metti il coperchio,Non scaldare mai il latte oltre i 90°C se non vuoi che prenda odore di zolfo." }, 
-        { "@type": "HowToStep", "text": "Aspetta che il latte raggiunga i <strong>45°C</strong> o temperatura ambiente,Ci vorranno 2-3 ore. Può anche raffreddarsi completamente: l'importante è che non sia più caldo di 45°C." }, 
-        { "@type": "HowToStep", "text": "Distribuisci <span class='qtyspan'><span data-qty='yogurt'>120</span> ml</span> di yogurt naturale in parti uguali nei <span class='qtyspan'><span data-qty='containers.150'>7</span> vasetti</span>,O versalo tutto nel contenitore scelto." }, 
+        { "@type": "HowToStep", "text": "Aspetta che il latte raggiunga i 45°C o temperatura ambiente,Ci vorranno 2-3 ore. Può anche raffreddarsi completamente: l'importante è che non sia più caldo di 45°C." }, 
+        { "@type": "HowToStep", "text": "Distribuisci 120 ml di yogurt naturale in parti uguali nei 7 vasetti,O versalo tutto nel contenitore scelto." }, 
         { "@type": "HowToStep", "text": "Versa il latte in parti uguali nei vasetti, e mescola" }, 
         { "@type": "HowToStep", "text": "Chiudi i vasetti e mettili nella yogurtiera,O nello spazio di incubazione che hai scelto. Se usi il forno, va messa dentro una lampadina accesa da 40W: tenere accesa la luce del forno non basta, e accendere il forno al minimo è eccessivo." }, 
-        { "@type": "HowToStep", "text": "Avvia la yogurtiera per <strong>9-12 ore</strong>,O tieni i vasetti nello spazio di incubazione per lo stesso tempo. Usa un tempo più vicino alle 9 ore d'estate o se vuoi uno yogurt meno acidulo." }, 
+        { "@type": "HowToStep", "text": "Avvia la yogurtiera per 9-12 ore,O tieni i vasetti nello spazio di incubazione per lo stesso tempo. Usa un tempo più vicino alle 9 ore d'estate o se vuoi uno yogurt meno acidulo." }, 
         { "@type": "HowToStep", "text": "Passate le ore previste, estrai i vasetti, aspetta che si raffreddino e mettili in frigo,Puoi consumare lo yogurt dopo 2-3 ore, quando si saranno rinfrescati." }
       ]
     }
@@ -441,7 +440,6 @@ annotationGroup( annotations ).show();
       <button class="btn-icon hidden btn-next"><svg class="icon"><use href="/images/svgdefs.svg#icon-arrow-down"/></svg></button>
     </div>
   </nav>
-
 
   <script data-goatcounter="https://simpletomakeit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   

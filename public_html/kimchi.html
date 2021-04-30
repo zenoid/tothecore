@@ -43,7 +43,7 @@
   <link rel="preload" href="/fonts/Bitter-Light.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Bitter-Medium.woff2" as="font" type="font/woff2" crossorigin>
   
-<link rel="stylesheet" href="/css/style.css?v=1619791933969.css">
+<link rel="stylesheet" href="/css/style.css?v=1619795569986.css">
 
 
 </head>
@@ -236,7 +236,7 @@
           <input type="checkbox" id="ingraqua">
           <label for="ingraqua"></label>
           <div class="card-body">
-            <h3><a href="/ingrediente/acqua.html" class="ingredient" data-tooltip="→ Vai alla scheda">Acqua</a><span class="quantity"><span data-qty="aqua">1500</span> gr</span></h3>
+            <h3><a href="/ingrediente/acqua.html" class="ingredient" data-tooltip="→ Vai alla scheda">Acqua</a><span class="quantity"><span class="qtyspan"><span data-qty="aqua">1500</span> gr</span></span></h3>
             
             <p class="note">Meglio se senza cloro: se sei in dubbio, lasciala decantare all'aria alcune ore.</p><p class="note">Servirà in parte per la salamoia e in parte per la salsa.</p>
           </div>
@@ -245,7 +245,7 @@
           <input type="checkbox" id="ingrsalt">
           <label for="ingrsalt"></label>
           <div class="card-body">
-            <h3><a href="/ingrediente/sale.html" class="ingredient" data-tooltip="→ Vai alla scheda">Sale fino</a><span class="quantity"><span data-qty="salt">60</span> gr</span></h3>
+            <h3><a href="/ingrediente/sale.html" class="ingredient" data-tooltip="→ Vai alla scheda">Sale fino</a><span class="quantity"><span class="qtyspan"><span data-qty="salt">60</span> gr</span></span></h3>
             
             <p class="note"></p><p class="note">Molto meglio se <strong>non iodato</strong>. Il sale integrale è l'ideale.</p>
           </div>
@@ -254,12 +254,12 @@
           <input type="checkbox" id="ingrflour">
           <label for="ingrflour"></label>
           <div class="card-body">
-            <h3><span class="ingredient">Farina</span><span class="quantity"><span data-qty="flour">60</span> gr</span></h3>
+            <h3><span class="ingredient">Farina</span><span class="quantity"><span class="qtyspan"><span data-qty="flour">60</span> gr</span></span></h3>
             
             <p class="note">Ideale la <strong>farina di riso</strong>, in alternativa metà farina bianca e metà amido (maizena o fecola).</p>
           </div>
         </div>
-        <script>var recipeBase={"qty":1000,"units":"gr"},recipeBaseRatio=1,recipeRange=[500,10000,500],recipePrecision=[3],ingredients={"aqua":{"ratio":150,"spec":1,"units":"gr"},"salt":{"ratio":6,"units":"gr"},"flour":{"ratio":6,"units":"gr"}}</script>
+        <script>var recipeBase={"qty":1000,"units":"gr"},recipeBaseRatio=1,recipeRange=[500,10000,500],recipePrecision=[3],ingredients={"aqua":{"ratio":150,"spec":1,"units":"gr"},"salt":{"ratio":6,"spec":1.274,"units":"gr"},"flour":{"ratio":6,"spec":0.8,"units":"gr"}}</script>
       </div>
 
     </section>
@@ -463,7 +463,6 @@
   </article>
 </div>
 
-
   <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -476,7 +475,7 @@
       },
       "recipeCategory": "food",
       "keywords": "ricetta, autoproduzione, casalingo, cucina, saponi, detergenti, detersivi, disinfettanti, fermentazioni, fermentati, pane, ingredienti, attrezzature, procedimento, uso, conservazione",
-      "description": "Il Kimchi è la maniera coreana di fermentare le verdure (simile ai Crauti) e permette di <strong>conservarle a lungo, renderle probiotiche e aggiungere nuovi sapori</strong>. La scelta delle verdure da fermentare è abbastanza libera, ma è utile che <strong>i cavoli a foglia siano l'ingrediente principale</strong> perché hanno i batteri più adatti per favorire la fermentazione. Per far fermentare le verdure ed evitare di farle marcire servono solo due cose: <strong>la giusta quantità di sale e poco contatto con l'aria</strong>. ",
+      "description": "Il Kimchi è la maniera coreana di fermentare le verdure (simile ai Crauti) e permette di conservarle a lungo, renderle probiotiche e aggiungere nuovi sapori. La scelta delle verdure da fermentare è abbastanza libera, ma è utile che i cavoli a foglia siano l'ingrediente principale perché hanno i batteri più adatti per favorire la fermentazione. Per far fermentare le verdure ed evitare di farle marcire servono solo due cose: la giusta quantità di sale e poco contatto con l'aria. ",
       "recipeIngredient": [
         "Cavoli a foglia", "Altre verdure", "Spezie", "1500 gr Acqua", "60 gr Sale fino", "60 gr Farina"
       ],
@@ -486,15 +485,15 @@
       "recipeInstructions": [
         { "@type": "HowToStep", "text": "Elimina le parti dure dai cavoli a foglia e togli le eventuali bucce dalle altre verdure,Togli anche ogni eventuale parte marcia: potrebbe rovinare la fermentazione." }, 
         { "@type": "HowToStep", "text": "Taglia i cavoli a foglia e tutte le altre verdure a pezzi piccoli o fettine sottili,Scegli tu come tagliare le verdure: l'importante è che non ci siano pezzi troppo grandi." }, 
-        { "@type": "HowToStep", "text": "Prepara una salamoia al <strong>6%</strong>, sciogliendo <span class='qtyspan'><span data-qty='salt'>60</span> gr</span> di sale fino in <span class='qtyspan'><span data-qty='aqua' data-mult='0.6666'>1000</span> gr</span> di acqua," }, 
+        { "@type": "HowToStep", "text": "Prepara una salamoia al 6%, sciogliendo 60 gr di sale fino in 1000 gr di acqua," }, 
         { "@type": "HowToStep", "text": "Metti tutte le verdure tagliate nella ciotola, e versa sopra la salamoia" }, 
         { "@type": "HowToStep", "text": "Schiaccia le verdure per eliminare ogni bolla d'aria, e metti un piatto e un peso sopra per mantenerle sotto la salamoia,Come peso, puoi usare un barattolo (pulito) riempito d'acqua." }, 
-        { "@type": "HowToStep", "text": "Lascia le verdure a bagno per <strong>6 ore</strong>,Puoi cambiare il tempo cambiando la concentrazione di sale: con una salamoia al 4% tieni a bagno le verdure per 10-12 ore, se all'8% invece 3-4 ore." }, 
-        { "@type": "HowToStep", "text": "Intanto prepara il condimento: metti <span class='qtyspan'><span data-qty='aqua' data-mult='0.3333'>500</span> gr</span> di acqua in un pentolino e accendi il fuoco,,Salsa di condimento" }, 
-        { "@type": "HowToStep", "text": "Quando l'acqua inizia a bollire, versa gradualmente <span class='qtyspan'><span data-qty='flour'>60</span> gr</span> farina di riso e mescola continuamente per non far formare grumi," }, 
+        { "@type": "HowToStep", "text": "Lascia le verdure a bagno per 6 ore,Puoi cambiare il tempo cambiando la concentrazione di sale: con una salamoia al 4% tieni a bagno le verdure per 10-12 ore, se all'8% invece 3-4 ore." }, 
+        { "@type": "HowToStep", "text": "Intanto prepara il condimento: metti 500 gr di acqua in un pentolino e accendi il fuoco,,Salsa di condimento" }, 
+        { "@type": "HowToStep", "text": "Quando l'acqua inizia a bollire, versa gradualmente 60 gr farina di riso e mescola continuamente per non far formare grumi," }, 
         { "@type": "HowToStep", "text": "Quando avrai una salsa densa, spegni il fuoco e lascia raffreddare fino a temperatura ambiente," }, 
         { "@type": "HowToStep", "text": "Frulla tutte le spezie che hai scelto, assieme alla salsa bianca," }, 
-        { "@type": "HowToStep", "text": "Dopo <strong>6 ore</strong> da quando hai immerso le verdure, scola tutta la salamoia, tenendone un po' da parte,,Imbarattolamento" }, 
+        { "@type": "HowToStep", "text": "Dopo 6 ore da quando hai immerso le verdure, scola tutta la salamoia, tenendone un po' da parte,,Imbarattolamento" }, 
         { "@type": "HowToStep", "text": "Versa la salsa con le spezie sulle verdure e inizia a mescolare tutto,Ogni pezzo di verdura deve essere cosparso di salsa. Tradizionalmente, questa operazione si fa massaggiando a mano." }, 
         { "@type": "HowToStep", "text": "Metti le verdure nei barattoli, schiacciandole per eliminare bolle d'aria e riempiendo tre quarti di barattolo,Premi con il pugno o con le dita le verdure verso il fondo del barattolo. Non riempire tutto il barattolo: le verdure si gonfieranno." }, 
         { "@type": "HowToStep", "text": "Se dopo aver schiacciato le verdure non sono del tutto immerse nella salsa, aggiungi salamoia fino a coprirle,Le verdure devono essere coperte di liquido, ma ricorda di lasciare sempre spazio libero nel barattolo." }
@@ -527,7 +526,6 @@ annotationGroup( annotations ).show();
       <button class="btn-icon hidden btn-next"><svg class="icon"><use href="/images/svgdefs.svg#icon-arrow-down"/></svg></button>
     </div>
   </nav>
-
 
   <script data-goatcounter="https://simpletomakeit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   

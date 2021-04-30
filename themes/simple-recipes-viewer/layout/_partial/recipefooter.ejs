@@ -1,3 +1,8 @@
+<%
+  function strip(s) {
+    return String(s).replace(/(<([^>]+)>)/gi, "");
+  }
+%>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -10,7 +15,7 @@
       },
       "recipeCategory": "<%- page.category %>",
       "keywords": "<%- __('keywords') %>",
-      "description": "<% for ( i = 0; i < page.principles.length; i++ ) { %><%- page.principles[ i ] %>. <% } %>",
+      "description": "<% for ( i = 0; i < page.principles.length; i++ ) { %><%- strip(page.principles[ i ]) %>. <% } %>",
       "recipeIngredient": [
         <%
 
@@ -46,7 +51,7 @@
         "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "<%- 100 +page.directions.length*13 %>"
       },
       "recipeInstructions": [<% for ( i = 0; i < page.directions.length; i++ ) { %>
-        { "@type": "HowToStep", "text": "<%- page.directions[ i ] %>" }<% if ( i < page.directions.length - 1 ) { %>, <% } %><% } %>
+        { "@type": "HowToStep", "text": "<%- strip(page.directions[ i ]) %>" }<% if ( i < page.directions.length - 1 ) { %>, <% } %><% } %>
       ]
     }
   </script>

@@ -9,11 +9,10 @@
     <%- partial('_partial/nav-main') %>
   </div>
 <%- body %>
-</div>
-
-<% if ( page.layout === 'recipe' ) { %>
+</div><%
+if ( page.layout === 'recipe' ) { %>
 <%- partial('_partial/recipefooter') %>
-<%- partial('_partial/nav-recipe') %>
-<% } %>
+<%- partial('_partial/nav-recipe') %><%
+} %>
 
 <%- partial('_partial/foot') %>

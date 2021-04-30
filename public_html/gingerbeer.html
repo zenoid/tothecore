@@ -43,7 +43,7 @@
   <link rel="preload" href="/fonts/Bitter-Light.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Bitter-Medium.woff2" as="font" type="font/woff2" crossorigin>
   
-<link rel="stylesheet" href="/css/style.css?v=1619791933966.css">
+<link rel="stylesheet" href="/css/style.css?v=1619795569985.css">
 
 
 </head>
@@ -215,7 +215,7 @@
         <div class="sub">
           <span>Cosa serve per fare circa</span>
           <span class="quantity">
-            <button class="btn-icon btn-icon-minus"><svg class="icon"><use href="/images/svgdefs.svg#icon-minus"/></svg></button><span id="qtyValue">1000</span> ml<button class="btn-icon btn-icon-plus"><svg class="icon"><use href="/images/svgdefs.svg#icon-plus"/></svg></button>
+            <button class="btn-icon btn-icon-minus"><svg class="icon"><use href="/images/svgdefs.svg#icon-minus"/></svg></button><span id="qtyValue">1100</span> ml<button class="btn-icon btn-icon-plus"><svg class="icon"><use href="/images/svgdefs.svg#icon-plus"/></svg></button>
           </span>
           <span>di ginger beer</span>
         </div>
@@ -227,7 +227,7 @@
           <input type="checkbox" id="ingrginger">
           <label for="ingrginger"></label>
           <div class="card-body">
-            <h3><span class="ingredient">Zenzero</span><span class="quantity"><span data-qty="ginger">3</span> cm</span></h3>
+            <h3><span class="ingredient">Zenzero</span><span class="quantity"><span class="qtyspan"><span data-qty="ginger">3</span> cm</span></span></h3>
             
             <p class="note">Molto meglio se da coltivazione biologica. Questa è la lunghezza indicativa di un pezzo di radice di medio diametro, ma la quantità da usare dipende da quanto forte e piccante vuoi la bevanda. Considera anche un po' di zenzero per la preparazione del Ginger Bug.</p>
           </div>
@@ -236,7 +236,7 @@
           <input type="checkbox" id="ingrsugar">
           <label for="ingrsugar"></label>
           <div class="card-body">
-            <h3><a href="/ingrediente/zucchero.html" class="ingredient" data-tooltip="→ Vai alla scheda">Zucchero</a><span class="quantity"><span data-qty="sugar">100</span> gr</span></h3>
+            <h3><a href="/ingrediente/zucchero.html" class="ingredient" data-tooltip="→ Vai alla scheda">Zucchero</a><span class="quantity"><span class="qtyspan"><span data-qty="sugar">100</span> gr</span></span></h3>
             
             <p class="note">Il più indicato è lo zucchero bianco perché più economico e dal sapore neutro, ma puoi usare zucchero grezzo se ti piace la sua nota aromatica.</p><p class="note">Considera un po' di zucchero in più per preparare il Ginger Bug.</p>
           </div>
@@ -245,7 +245,7 @@
           <input type="checkbox" id="ingraqua">
           <label for="ingraqua"></label>
           <div class="card-body">
-            <h3><a href="/ingrediente/acqua.html" class="ingredient" data-tooltip="→ Vai alla scheda">Acqua</a><span class="quantity"><span data-qty="aqua">1000</span> gr</span></h3>
+            <h3><a href="/ingrediente/acqua.html" class="ingredient" data-tooltip="→ Vai alla scheda">Acqua</a><span class="quantity"><span class="qtyspan"><span data-qty="aqua">1000</span> gr</span></span></h3>
             
             <p class="note">Meglio se senza cloro: se sei in dubbio, lasciala decantare all'aria alcune ore.</p><p class="note"></p>
           </div>
@@ -263,7 +263,7 @@
           <p>Le quantità per questa ricetta sono solo indicative: sperimenta per trovare il giusto mix tra dolcezza, piccantezza e contenuto di gas. Ricorda che un minimo contenuto di zucchero è sempre inspensabile a far funzionare la fermentazione.</p>
         </div>
       
-        <script>var recipeBase={"qty":1000,"units":"ml"},recipeBaseRatio=0.999,recipeRange=[500,5000,100],ingredients={"ginger":{"ratio":0.3,"units":"cm"},"sugar":{"ratio":10,"spec":100,"units":"gr"},"aqua":{"ratio":100,"spec":1,"units":"gr"}}</script>
+        <script>var recipeBase={"qty":1100,"units":"ml"},recipeBaseRatio=0.941,recipeRange=[500,5000,100],ingredients={"ginger":{"ratio":0.3,"units":"cm"},"sugar":{"ratio":10,"spec":1.6,"units":"gr"},"aqua":{"ratio":100,"spec":1,"units":"gr"}}</script>
       </div>
 
     </section>
@@ -481,7 +481,6 @@
   </article>
 </div>
 
-
   <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -494,7 +493,7 @@
       },
       "recipeCategory": "food",
       "keywords": "ricetta, autoproduzione, casalingo, cucina, saponi, detergenti, detersivi, disinfettanti, fermentazioni, fermentati, pane, ingredienti, attrezzature, procedimento, uso, conservazione",
-      "description": "Si chiamano birre, ma non sono birre, quasi tutte le <strong>bevande  prodotte dalla fermentazione degli zuccheri</strong> e con un contenuto di alcool anche minimo. Per produrre ginger beer senza usare lieviti <strong>serve uno starter: il ginger bug</strong>, che è come una ginger beer molto concentrata. Lo zenzero produce molta anidride carbonica, e questa bevanda può essere molto gassata: per evitare esplosioni <strong>conserva le bottiglie in frigo o tappale molto bene</strong>. ",
+      "description": "Si chiamano birre, ma non sono birre, quasi tutte le bevande  prodotte dalla fermentazione degli zuccheri e con un contenuto di alcool anche minimo. Per produrre ginger beer senza usare lieviti serve uno starter: il ginger bug, che è come una ginger beer molto concentrata. Lo zenzero produce molta anidride carbonica, e questa bevanda può essere molto gassata: per evitare esplosioni conserva le bottiglie in frigo o tappale molto bene. ",
       "recipeIngredient": [
         "3 cm Zenzero", "100 gr Zucchero", "1000 gr Acqua", "Succo di limone"
       ],
@@ -506,13 +505,13 @@
         { "@type": "HowToStep", "text": "Aggiungi una quantità di zucchero pari a quella dello zenzero,Puoi pesare lo zenzero oppure misurare il suo volume in cucchiaini: non è necessario essere precisi al grammo" }, 
         { "@type": "HowToStep", "text": "Versa un po' di acqua, quanto basta per sciogliere lo zucchero, e poi copri il contenitore con un panno che lasci passare l'aria" }, 
         { "@type": "HowToStep", "text": "Mescola questo composto ogni giorno, e aggiungi ogni volta un po' di zenzero tritato e una pari quantità di zucchero" }, 
-        { "@type": "HowToStep", "text": "Il composto sarà pronto quando produrrà bollicine ogni volta che lo mescoli, in genere dopo <strong>7-10 giorni</strong>, " }, 
-        { "@type": "HowToStep", "text": "Taglia <span class='qtyspan'><span data-qty='ginger'>3</span> cm</span> di zenzero a pezzi piccoli,Non è necessario tritarlo, in questo caso,Ginger Beer" }, 
-        { "@type": "HowToStep", "text": "Metti in una pentola metà dell'acqua prevista – <span class='qtyspan'><span data-qty='aqua'>500</span> gr</span> – aggiungi lo zenzero a pezzi e accendi il fuoco" }, 
-        { "@type": "HowToStep", "text": "Lascia bollire, coperto, per circa <strong>15 minuti</strong>" }, 
+        { "@type": "HowToStep", "text": "Il composto sarà pronto quando produrrà bollicine ogni volta che lo mescoli, in genere dopo 7-10 giorni, " }, 
+        { "@type": "HowToStep", "text": "Taglia 3 cm di zenzero a pezzi piccoli,Non è necessario tritarlo, in questo caso,Ginger Beer" }, 
+        { "@type": "HowToStep", "text": "Metti in una pentola metà dell'acqua prevista – 500 gr – aggiungi lo zenzero a pezzi e accendi il fuoco" }, 
+        { "@type": "HowToStep", "text": "Lascia bollire, coperto, per circa 15 minuti" }, 
         { "@type": "HowToStep", "text": "Scola il liquido nel contenitore più grande, filtrando lo zenzero con un colino" }, 
-        { "@type": "HowToStep", "text": "Aggiungi <span class='qtyspan'><span data-qty='sugar'>100</span> gr</span> di zucchero e fallo sciogliere girando con un mestolo" }, 
-        { "@type": "HowToStep", "text": "Aggiungi l'acqua rimanente: <span class='qtyspan'><span data-qty='aqua'>500</span> gr</span>,Aggiungendo acqua fredda, avrai subito un liquido a temperatura ambiente." }, 
+        { "@type": "HowToStep", "text": "Aggiungi 100 gr di zucchero e fallo sciogliere girando con un mestolo" }, 
+        { "@type": "HowToStep", "text": "Aggiungi l'acqua rimanente: 500 gr,Aggiungendo acqua fredda, avrai subito un liquido a temperatura ambiente." }, 
         { "@type": "HowToStep", "text": "Se il liquido è a temperatura ambiente, aggiungi il Ginger Bug creato in precedenza, filtrando lo zenzero con un colino" }, 
         { "@type": "HowToStep", "text": "Lascia il contenitore aperto e coperto con un panno, e mescolalo ogni giorno" }, 
         { "@type": "HowToStep", "text": "Quando il liquido diventerà frizzante quando lo mescoli, mettilo in bottiglia,Il gas continuerà ad aumentare: usa bottiglie di plastica da far sfiatare ogni tanto, oppure tappa molto bene le bottiglie." }, 
@@ -546,7 +545,6 @@ annotationGroup( annotations ).show();
       <button class="btn-icon hidden btn-next"><svg class="icon"><use href="/images/svgdefs.svg#icon-arrow-down"/></svg></button>
     </div>
   </nav>
-
 
   <script data-goatcounter="https://simpletomakeit.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   
