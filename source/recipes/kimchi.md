@@ -49,6 +49,7 @@ ingredients:
       notes: "Molto meglio se <strong>non iodato</strong>. Il sale integrale è l'ideale." }
   - { id: "flour",
       name: "Farina",
+      spec: 0.8,
       ratio: 6,
       qty: 60,
       units: "gr",

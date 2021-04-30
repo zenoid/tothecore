@@ -26,7 +26,7 @@ sources:
 
 recipeIntro: [ "Cosa serve per fare circa", "di ginger beer" ]
 
-recipeBase: { qty: 1000, units: "ml" }
+recipeBase: { qty: 1100, units: "ml" }
 recipeRange: [ 500, 5000, 100 ]
 
 ingredients:
@@ -39,7 +39,6 @@ ingredients:
       notes: "Molto meglio se da coltivazione biologica. Questa è la lunghezza indicativa di un pezzo di radice di medio diametro, ma la quantità da usare dipende da quanto forte e piccante vuoi la bevanda. Considera anche un po' di zenzero per la preparazione del Ginger Bug." }
   - { id: "sugar",
       ratio: 10,
-      spec: 100,
       qty: 100,
       units: "gr",
       notes: "Considera un po' di zucchero in più per preparare il Ginger Bug." }

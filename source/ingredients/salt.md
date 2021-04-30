@@ -6,6 +6,7 @@ id: salt
 permalink: ingrediente/sale
 name: "Sale fino"
 inci: "Sodium Chloride"
+unitWeight: 1.274
 
 ---
 Può essere ottenuto da evaporazione dell'acqua marina, o estratto in miniera (nel qual caso parliamo di <strong>Salgemma</strong>).

@@ -189,7 +189,7 @@
           <input type="checkbox" id="ingr<%= ing.id %>">
           <label for="ingr<%= ing.id %>"></label>
           <div class="card-body">
-            <h3><% if ( ing.url ) { %><a href="<%= ing.url %>" class="ingredient" data-tooltip="&rarr; Vai alla scheda"><%- ing.name %></a><% } else { %><span class="ingredient"><%- ing.name %></span><% } %><% if ( ing.qty ) { %><span class="quantity"><span data-qty="<%- ing.id %>"><%- ing.qty %></span> <%- ing.units %></span><% } %></h3>
+            <h3><% if ( ing.url ) { %><a href="<%= ing.url %>" class="ingredient" data-tooltip="&rarr; Vai alla scheda"><%- ing.name %></a><% } else { %><span class="ingredient"><%- ing.name %></span><% } %><% if ( ing.qty ) { %><span class="quantity"><span class="qtyspan"><span data-qty="<%- ing.id %>"><%- ing.qty %></span> <%- ing.units %></span></span><% } %></h3>
             <% if ( ing.altNames ) { %><p class="note">Chiamato anche: <strong><%= ing.altNames %></strong></p><% } %>
             <% if ( ing.notes.length ) {
                 ing.notes.forEach( note => {

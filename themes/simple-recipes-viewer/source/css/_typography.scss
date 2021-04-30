@@ -179,6 +179,16 @@ h6 {
   font-family: $font;
   font-weight: $fontweight-bold;
   white-space: nowrap;
+
+  &[data-tooltip] {
+    border-bottom: 2px dotted var(--color-main4);
+  }
+}
+
+.touch {
+  .qtyspan[data-tooltip] {
+    border: none;
+  }
 }
 
 

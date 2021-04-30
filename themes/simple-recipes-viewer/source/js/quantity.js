@@ -82,6 +82,12 @@ document.addEventListener( 'DOMContentLoaded', function() {
       }
       qty = round( qty * mult, qtyLabels[ i ].dataset.prec || ingrPrec, ceil );
       qtyLabels[ i ].textContent = qty;
+      if ( qtyId !== 'volume' && qtyId !== 'containers' ) {
+        if ( ingredients[ qtyId ].spec && qtyId !== 'lye' && ingredients[ qtyId ].units === 'gr' ) {
+          let qtyVol = round( qty / ingredients[ qtyId ].spec, qtyLabels[ i ].dataset.prec || ingrPrec, ceil );
+          qtyLabels[ i ].parentNode.dataset.tooltip = "= " + qtyVol + " ml";
+        }
+      }
     }
     for ( i = 0; i < qtyPlurals.length; i++ ) {
       plurId = qtyPlurals[ i ].dataset.plural.split( '.' )[ 0 ],

@@ -437,7 +437,8 @@ body:not(.touch) {
     }
   }
 
-  a {
+  a,
+  .quantity {
     z-index: 1;
     @include transition( background-color, $transition-hover );
   }
